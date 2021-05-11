@@ -1,2 +1,0 @@
-C:\Users\jason\OneDrive\Desktop\OOP244\Workshop\WS01\Workshop1\Debug\Workshop1.exe
-C:\Users\jason\OneDrive\Desktop\OOP244\Workshop\WS01\Workshop1\Debug\Workshop1.pdb
