@@ -1,0 +1,21 @@
+==============================================
+Name:           Jason Jun
+Student Number: 126 683 200
+Email:          jjun10@myseneca.ca
+Section:        OOP244 NCC
+Workshop:       Workshop 9 - Reflect
+==============================================
+
+When working on Workshop 9, I have encountered a new topic that is called "Templates". Templates take the form of "template<Type identifier[, ...]>", where the keyword "template" takes in a block of code as a template. The two angled brackets, "< >", holds the definitions for the templates and the "identifier" keyword is where a person puts in the arguments. The "Type" keyword of the template form can be replaced by any of these different types: typename (used to identify a type), class (used to identify a type), int/long/short/char (used to identify a non-floating-point type), and a template parameter. When templates are used in functions, the call to the template functions determines the specialization that the compiler generates. In Workshop 9, I have used the templated functions, where there are two functions with "typename" template for each functions. By having the typenames, it was surprising because the typename accepted different types of classes created in the main file, and also it accepted the arrays. The two functions were:
+
+search Function:
+	
+	I have used <typename T1, typename T2> to accept the templated objects and the keys. For the templated objects, it had reference to the Collection template class, so I have used the "typename". Then the T1 will be able to accept the classes (Car, Student, Employee). For the keys, the type of it gets different per classes as it is called, so "typename" was chosen to be used. 
+
+listArrayElements Function:
+	
+	I used <typename L> because the "typename" accepts different types of array, instead of one specific type. Moreover, as main.cpp compiles, "typename" will determine what type of array the main.cpp had sent. Then the function will output the required fields.
+
+While working on this workshop, I had encountered many difficulties because I was not sure where I should start using the templates. I knew the basic concept of what it did, but I was confused about how to implement it. However, after searching online about it, reading the OOP website notes, and professor Hong's lectures, I have started to grasp what the templates did. Then after multiple debugging, I have found how to set up functions with the templates and the rest of the implementation of the functions was not hard to figure out. 
+
+In the same week, I also have worked on Milestone 4 which I had to create implementations of COVID and triage patient modules. The entire Milestone 4 was not that difficult because the topics that were used in the milestones were already covered before, such as overriding functions, virtual functions, and more. However, when writing functions related to reading the data, I had a bit of trouble there because I am still sometimes confused of using different functions to read the data. However, going back to the lectures and the notes that I have used when doing the workshop related to reading the data, I was able to manage the difficulties. Therefore, on the week of Workshop9, there was also a Milestone 4 I have done and have learned a lot. 
