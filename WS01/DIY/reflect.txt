@@ -1,0 +1,11 @@
+//==============================================
+// Name:           Jason Jun
+// Student Number: 126 683 200
+// Email:          jjun10@myseneca.ca
+// Section:        OOP244 NCC
+// Workshop:       Workshop 1 - DIY
+//==============================================
+
+When working on the DIY area of Workshop 1, I have found many topics that I have learned and had difficulties with. When working on the DIY, I learned how important namespace could be. It is used to organize my code into groups and prevent any overlaps of the same function names. Also, by having to write the line "using namespace <NAMESPACE_NAME>", it is more convenient than having to have to write a scope resolution operator whenever I needed to call out a function within a namespace. Also, I found that scope is really important when dealing with variables that need is used within the code entirely. For example, in the function "strstr", I was stuck because I was not sure in each area I had a problem with, but I realized that one of the variables was leaving the scope after the for loop statement. Hence, whenever the function was called, it was running in an infinite loop. When writing the functions, I have learned that even though a function A is written above other code functions, function A can call the other functions to write the code more efficiently. While working throughout the DIY, I have noticed that C++ language is similar to the style of the C language, so it is more fun to use and gets me to have more enthusiasm in learning C++ in depth. 
+
+While writing the code for the functions, I had a few difficulties or issues that I had to deal with. When writing the "strstr" function, I had trouble with dealing with pointers, so I went back to the lecture recordings and the lecture notes to understand better. I had some trouble understanding what the "&" would give out as a result, so I had to do multiple testing to see how the result was going to show. Another issue was understanding what some of the functions were supposed to do. For example, "strnCpy" had me confused of what the the variable,len, was supposed to do. However, after testing many times, the questions were resolved. Therefore, these were the topics I have learned throughout the Workshop 1 - DIY and troubles I have faced.
